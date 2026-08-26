@@ -1,0 +1,20 @@
+{
+  "name": "tide-duty",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local co-op water puzzle where two players manage asymmetric dam valves, balance flood waves, and rescue crates.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
